@@ -1,10 +1,58 @@
-{C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd}
+{C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_AND5
+-- Compiling architecture AND5_VERIFY of TB_AND5
+-- Loading entity AND5
+-- Compiling entity TB_OR5
+-- Compiling architecture OR5_VERIFY of TB_OR5
+-- Loading entity OR5
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND2
+-- Compiling architecture AND2_EQ of AND2
+-- Compiling entity OR2
+-- Compiling architecture OR2_EQ of OR2
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity NOT1
 -- Compiling architecture NOT1_EQ of NOT1
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TB_AND2
+-- Compiling architecture AND2_VERIFY of TB_AND2
+-- Loading entity AND2
+-- Compiling entity TB_OR2
+-- Compiling architecture OR2_VERIFY of TB_OR2
+-- Loading entity OR2
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND3
+-- Compiling architecture AND3_EQ of AND3
+-- Compiling entity OR3
+-- Compiling architecture OR3_EQ of OR3
 
 } {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -19,5 +67,39 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity TB_OR3
 -- Compiling architecture OR3_VERIFY of TB_OR3
 -- Loading entity OR3
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XOR2
+-- Compiling architecture XOR2_EQ of XOR2
+-- Compiling entity XOR3
+-- Compiling architecture XOR3_EQ of XOR3
+-- Compiling entity XOR5
+-- Compiling architecture XOR5_EQ of XOR5
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NAND2
+-- Compiling architecture NAND2_EQ of NAND2
+-- Compiling entity NAND3
+-- Compiling architecture NAND3_EQ of NAND3
+-- Compiling entity NAND5
+-- Compiling architecture NAND5_EQ of NAND5
+
+} {} {}} {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND5
+-- Compiling architecture AND5_EQ of AND5
+-- Compiling entity OR5
+-- Compiling architecture OR5_EQ of OR5
 
 } {} {}}

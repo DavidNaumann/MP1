@@ -1,6 +1,3 @@
--- File: tb_xors.vhd
--- Includes: Testbenches for all XOR gates
-
 -- TB_XOR2, Test Bench for XOR2 gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
