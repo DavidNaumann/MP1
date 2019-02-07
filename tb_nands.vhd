@@ -1,3 +1,6 @@
+-- File: tb_nands.vhd
+-- Includes: Testbenches for NAND2, NAND3, NAND5 gates
+
 -- TB_NAND2, Test Bench for NAND2 gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
