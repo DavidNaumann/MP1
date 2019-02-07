@@ -36,9 +36,13 @@ For normal architecture definitions just append _EQ on the end of the component/
 
 #### Testbench Cases
 
-For testbench architectures just append _VERIFY on the end of the component/entity name
-For test bench entities attach TB_ before the component/entity name
-apply_test_cases
+For testbench architectures:
+* just append _VERIFY on the end of the component/entity name
+For testbench entities:
+* attach TB_ before the component/entity name
+For testbench processes/procedures:
+* use name apply_test_cases for test bench processes
+* use name apply_test for test bench procedures
 
 ```
 i.e. AND5 would be an AND gate component of 5 inputs, OR3 would be an OR gate component,
