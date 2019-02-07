@@ -1,6 +1,8 @@
 -- File: xors.vhd
 -- Includes: 2 Input, 3 Input and 5 Input Gates for XORs
 
+-- need equation and component (AND3,AND2*)
+
 -- XOR2, 2 input XOR gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -94,6 +96,6 @@ architecture XOR5_EQ of XOR5 is
 begin
   -- tempo = i1 xor i2 xor i3
   X31: XOR3 port map(i1, i2, i3, tempo);
-  -- o = i4 xor i5 xor tempo (or i1 xor i2 xor i3 or i4 or i5)
+  -- o = i4 xor i5 xor tempo (or i1 xor i2 xor i3 xor i4 xor i5)
   X32: XOR3 port map(i4, i5, tempo, o);
 end XOR5_EQ;

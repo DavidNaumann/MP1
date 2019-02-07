@@ -2,6 +2,11 @@
 -- Includes: 2 Input, 3 Input and 5 Input Gates for NAND
 
 -- NAND2, 2 input NAND gate, Creation
+
+-- equation model
+-- component basic gates
+-- nands using each other
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

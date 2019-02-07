@@ -1,5 +1,7 @@
--- NOT Gate
+-- File: not.vhd
+-- Includes: not gate
 
+-- NOT1, 1 input NOT gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

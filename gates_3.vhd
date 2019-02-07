@@ -26,6 +26,8 @@ begin
 end AND3_EQ;
 
 
+-- equation model for OR3
+
 -- OR3, 3 input OR gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

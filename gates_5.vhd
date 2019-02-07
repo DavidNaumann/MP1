@@ -25,6 +25,7 @@ begin
   A32: AND3 port map(i4,i5, tempo, o);
 end AND5_EQ;
 
+-- equation model needed
 -- OR5, 5 input OR gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
