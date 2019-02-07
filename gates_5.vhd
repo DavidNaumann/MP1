@@ -1,7 +1,6 @@
 -- File: gates_5.vhd
 -- Includes: 5 Input Gates such as AND5 and OR5
 
-
 -- AND5, 5 input AND gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -21,9 +20,9 @@ architecture AND5_EQ of AND5 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 & i2 & i3
-  A1: AND3 port map(i1,i2, i3, tempo);
+  A31: AND3 port map(i1,i2, i3, tempo);
   -- o = i4 & i5 & tempo (or o = i1 & i2 & i3 & i4 & i5)
-  A2: AND3 port map(i4,i5, tempo, o);
+  A32: AND3 port map(i4,i5, tempo, o);
 end AND5_EQ;
 
 -- OR5, 5 input OR gate, Creation
@@ -45,7 +44,7 @@ architecture OR5_EQ of OR5 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 || i2 || i3
-  A1: OR3 port map(i1,i2, i3, tempo);
+  O31: OR3 port map(i1,i2, i3, tempo);
   -- o = i4 || i5 || tempo (or o = i1 || i2 || i3 || i4 || i5)
-  A2: OR3 port map(i4,i5, tempo, o);
+  O32: OR3 port map(i4,i5, tempo, o);
 end OR5_EQ;

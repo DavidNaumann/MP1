@@ -1,7 +1,6 @@
 -- File: tb_gates_5.vhd
 -- Includes: Testbenches for 5 Input Gates such as AND5 and OR5
 
-
 -- TB_AND5, Test Bench for AND5 gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
