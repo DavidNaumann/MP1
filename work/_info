@@ -1,0 +1,962 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Eand2
+Z0 w1549491917
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\DavidNaumann\Desktop\Classes\SPRING 2018\CpE5220-DigtalSystemsModelling\MP1
+Z4 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd
+Z5 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd
+l0
+L38
+V`O^5W@WnNWJ0nPLSGh@bR3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1549498365.396000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd|
+Z9 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_2.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 eFHcVWNj>z:hk0H_UUegk3
+!i10b 1
+Aand2_eq
+R1
+R2
+Z12 DEx4 work 4 and2 0 22 `O^5W@WnNWJ0nPLSGh@bR3
+l45
+L43
+VS:DG>;[@68^;[Ye[7nBGZ3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 YGk]A5gfCW0:;:OT`coC60
+!i10b 1
+Eand3
+Z13 w1549491913
+R1
+R2
+R3
+Z14 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd
+Z15 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd
+l0
+L39
+Vf5c29^d9Oj5AUa7TA`k`:2
+R6
+32
+Z16 !s108 1549498366.449000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd|
+Z18 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_3.vhd|
+R10
+R11
+!s100 aP65G^@OZcV^A=zH1`bk@1
+!i10b 1
+Aand3_eq
+R1
+R2
+Z19 DEx4 work 4 and3 0 22 f5c29^d9Oj5AUa7TA`k`:2
+l52
+L44
+VK=iiMg3]a0@@YDnZS?dKQ3
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 majD5GJz?PYAd:41INcRJ1
+!i10b 1
+Eand5
+Z20 w1549492547
+R1
+R2
+R3
+Z21 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd
+Z22 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd
+l0
+L51
+VBezm_Kbz[?2h4^[lGDDT02
+R6
+32
+Z23 !s108 1549498367.336000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd|
+Z25 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/gates_5.vhd|
+R10
+R11
+!s100 HCg<>Fk:Jla6G]]`EKPmF2
+!i10b 1
+Aand5_eq
+R1
+R2
+Z26 DEx4 work 4 and5 0 22 Bezm_Kbz[?2h4^[lGDDT02
+l64
+L56
+V[jWPmnhEJgUQ?TDGW8mDZ3
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 OUSJLze_YMh7QQ>]]B^;z0
+!i10b 1
+Enand2
+Z27 w1549491876
+R1
+R2
+R3
+Z28 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd
+Z29 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd
+l0
+L38
+V]S6M@l[be?@YgOj1]<kb:3
+R6
+32
+Z30 !s108 1549498371.240000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd|
+Z32 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/nands.vhd|
+R10
+R11
+!s100 ek2^CBaYEDhB?P:?zOFN^0
+!i10b 1
+Anand2_eq
+R1
+R2
+Z33 DEx4 work 5 nand2 0 22 ]S6M@l[be?@YgOj1]<kb:3
+l56
+L43
+VMSbG]TZJU17_UJZaiSY>41
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 ZlRG8CJ1D;7lP=;Ej>C9D1
+!i10b 1
+Enand3
+R27
+R1
+R2
+R3
+R28
+R29
+l0
+L70
+VIen_dJ>GBS62NnEk_[^TF2
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 mI;dRDFgK<P2XD^bV==Ck3
+!i10b 1
+Anand3_eq
+R1
+R2
+Z34 DEx4 work 5 nand3 0 22 Ien_dJ>GBS62NnEk_[^TF2
+l88
+L75
+VZSk>KaKBCCaK<7a0j=5cl3
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 =eohgP>86ke<a2Ljc;cd33
+!i10b 1
+Enand5
+R27
+R1
+R2
+R3
+R28
+R29
+l0
+L104
+VmKKLK:P3j;XUWPo7_PdHo0
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 RXAnEoVnTbWJcVid:^^L[2
+!i10b 1
+Anand5_eq
+R1
+R2
+Z35 DEx4 work 5 nand5 0 22 mKKLK:P3j;XUWPo7_PdHo0
+l122
+L109
+VFec1lEnEo79Sa1mz5PASA0
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 XJk@F3BoRM1BKOW:ZTDXW0
+!i10b 1
+Enot1
+Z36 w1549341269
+R1
+R2
+R3
+Z37 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd
+Z38 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd
+l0
+L6
+Vf5D@FCdQ`]7;?U]5S]UlA3
+R6
+32
+Z39 !s108 1549498372.410000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd|
+Z41 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/not.vhd|
+R10
+R11
+!s100 UWPABDNL3P@7GWi2K0Knd1
+!i10b 1
+Anot1_eq
+R1
+R2
+DEx4 work 4 not1 0 22 f5D@FCdQ`]7;?U]5S]UlA3
+l13
+L11
+Vm79[<CBF=>DCk1P1eJnDi0
+R6
+32
+R39
+R40
+R41
+R10
+R11
+!s100 @Nn?:D6e_>LZ[dea36O>f1
+!i10b 1
+Eor2
+Z42 w1549491917
+R1
+R2
+R3
+R4
+R5
+l0
+L54
+VXWOB16?GcEHWm[g51A1T[2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 cDPKe_`:T56Dbdb906DP03
+!i10b 1
+Aor2_eq
+R1
+R2
+Z43 DEx4 work 3 or2 0 22 XWOB16?GcEHWm[g51A1T[2
+l61
+L59
+Vo=>:T;0`769QizQBJlnFI3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 CPih_R=7BA54HCSLGoHaA2
+!i10b 1
+Eor3
+R13
+R1
+R2
+R3
+R14
+R15
+l0
+L64
+VM?;_DGJfR<>CES[V:5dEd1
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 lTzZH]IJoIY::beH1b6Mz2
+!i10b 1
+Aor3_eq
+R1
+R2
+Z44 DEx4 work 3 or3 0 22 M?;_DGJfR<>CES[V:5dEd1
+l77
+L69
+VAQBeoNQ0=32;9O><dgWa:2
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 ak<Z946C`Z:PDS=H>?>GT3
+!i10b 1
+Eor5
+R20
+R1
+R2
+R3
+R21
+R22
+l0
+L75
+VdOANA`Z[m5OHbgY_B8ZN12
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 ZcA<?6dc]lz=34c;01]XM2
+!i10b 1
+Aor5_eq
+R1
+R2
+Z45 DEx4 work 3 or5 0 22 dOANA`Z[m5OHbgY_B8ZN12
+l88
+L80
+VS[6jY6Lf1agM3OezjgV601
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 h]JNeoP[I_9H:QWBekSB@2
+!i10b 1
+Etb_and2
+Z46 w1549498350
+Z47 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+Z49 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd
+Z50 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd
+l0
+L42
+VIPfQK[]JRGO>YY_X1InYf1
+R6
+32
+Z51 !s108 1549498368.390000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd|
+Z53 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_2.vhd|
+R10
+R11
+!s100 [DSizjeQ@UZI:m0CVLSod2
+!i10b 1
+Aand2_verify
+R12
+R47
+R48
+R1
+R2
+DEx4 work 7 tb_and2 0 22 IPfQK[]JRGO>YY_X1InYf1
+l51
+L46
+VclAC=b;S`ZmKMWAGcQFen1
+R6
+32
+R51
+R52
+R53
+R10
+R11
+!s100 L1h<TNUbQV3_i=N`2A[6d0
+!i10b 1
+Etb_and3
+Z54 w1549436877
+R47
+R48
+R1
+R2
+R3
+Z55 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd
+Z56 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd
+l0
+L10
+VF19VSVc[@nOGUHZm:f;hZ1
+R6
+32
+Z57 !s108 1549498369.476000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd|
+Z59 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_3.vhd|
+R10
+R11
+!s100 TB]:0Te1lfHeWTZOZg:Dh3
+!i10b 1
+Aand3_verify
+R19
+R47
+R48
+R1
+R2
+Z60 DEx4 work 7 tb_and3 0 22 F19VSVc[@nOGUHZm:f;hZ1
+l19
+L14
+V4<W>O`N>eHY931fhhDS6@0
+R6
+32
+R57
+R58
+R59
+R10
+R11
+!s100 HSz>:MCc59BCL4li]S5lX0
+!i10b 1
+Averify
+DEx4 work 4 and3 0 22 ZAJQI;:d7HLOBGLo010@N1
+R47
+R48
+R1
+R2
+R60
+l11
+L8
+V^Ka`6hkP6i08E<:7>l1B51
+R6
+32
+R10
+R11
+FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_and3.vhd
+w1549174201
+8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_and3.vhd
+!s108 1549357148.975000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_and3.vhd|
+!s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_and3.vhd|
+!s100 WjLSY4YHSIHjO5WiSQP^Y2
+!i10b 1
+Etb_and5
+Z61 w1549492011
+R47
+R48
+R1
+R2
+R3
+Z62 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd
+Z63 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd
+l0
+L10
+VQ0lODD?cIn53`S1[e;2b62
+R6
+32
+Z64 !s108 1549498370.458000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd|
+Z66 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_gates_5.vhd|
+R10
+R11
+!s100 `[b_;@lbz6eGMgm<K:N5]2
+!i10b 1
+Aand5_verify
+R26
+R47
+R48
+R1
+R2
+DEx4 work 7 tb_and5 0 22 Q0lODD?cIn53`S1[e;2b62
+l20
+L14
+VLO`IVF]5N8idMRP@Yz3lG0
+R6
+32
+R64
+R65
+R66
+R10
+R11
+!s100 _n@_`jJMSc]i1A`J8NEc:0
+!i10b 1
+Etb_nand2
+Z67 w1549436528
+R47
+R48
+R1
+R2
+R3
+Z68 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_nands.vhd
+Z69 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_nands.vhd
+l0
+L7
+ViGI?U0zUL>fVRP<e?lR420
+R6
+32
+Z70 !s108 1549498373.175000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_nands.vhd|
+Z72 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_nands.vhd|
+R10
+R11
+!s100 h`6M2S=D<]j=9N:2alGGf2
+!i10b 1
+Anand2_verify
+R33
+R47
+R48
+R1
+R2
+DEx4 work 8 tb_nand2 0 22 iGI?U0zUL>fVRP<e?lR420
+l15
+L10
+VMF9?QbK5C;?d@7lIbj3eQ1
+R6
+32
+R70
+R71
+R72
+R10
+R11
+!s100 ^GjH8>fEHiP]W[WZb1L1W1
+!i10b 1
+Etb_nand3
+R67
+R47
+R48
+R1
+R2
+R3
+R68
+R69
+l0
+L48
+V=PH<DabXWK_SKmho>jk3C2
+R6
+32
+R70
+R71
+R72
+R10
+R11
+!s100 imK5ERR5ldVjbROdZmIjI2
+!i10b 1
+Anand3_verify
+R34
+R47
+R48
+R1
+R2
+DEx4 work 8 tb_nand3 0 22 =PH<DabXWK_SKmho>jk3C2
+l56
+L51
+VPl6jlge2fHcOl<aCUnJ1J3
+R6
+32
+R70
+R71
+R72
+R10
+R11
+!s100 K>gL7no_GK3ja=G]92MGj3
+!i10b 1
+Etb_nand5
+R67
+R47
+R48
+R1
+R2
+R3
+R68
+R69
+l0
+L91
+VOln4iA7_`XR@RGLoT7Yz]0
+R6
+32
+R70
+R71
+R72
+R10
+R11
+!s100 C8hc;iSFlIXZZ[fXoeCbO2
+!i10b 1
+Anand5_verify
+R35
+R47
+R48
+R1
+R2
+DEx4 work 8 tb_nand5 0 22 Oln4iA7_`XR@RGLoT7Yz]0
+l100
+L94
+Vzg_B5e9hbRPGo=Vo^8_8h0
+R6
+32
+R70
+R71
+R72
+R10
+R11
+!s100 I5o;?a@;2E0Y6hkzblYiE3
+!i10b 1
+Etb_or2
+R46
+R47
+R48
+R1
+R2
+R3
+R49
+R50
+l0
+L84
+VVh]^4T]m[iB1^Co7e5DWS2
+R6
+32
+R51
+R52
+R53
+R10
+R11
+!s100 d>=]CbTdlIOin4cQhZ7oo2
+!i10b 1
+Aor2_verify
+R43
+R47
+R48
+R1
+R2
+DEx4 work 6 tb_or2 0 22 Vh]^4T]m[iB1^Co7e5DWS2
+l92
+L87
+VVS7f7ij]S=A?IYGH[`B_H3
+R6
+32
+R51
+R52
+R53
+R10
+R11
+!s100 ^6dkdBFdAZ3[f[AhYb72K0
+!i10b 1
+Etb_or3
+R54
+R47
+R48
+R1
+R2
+R3
+R55
+R56
+l0
+L54
+VDY2c?CX`LV`4:LCXZ1df>2
+R6
+32
+R57
+R58
+R59
+R10
+R11
+!s100 Y2gO]k7N5j]kLQfcOBciI1
+!i10b 1
+Aor3_verify
+R44
+R47
+R48
+R1
+R2
+DEx4 work 6 tb_or3 0 22 DY2c?CX`LV`4:LCXZ1df>2
+l62
+L57
+VnoLVj_:>D9Z9T6ek`Lkk01
+R6
+32
+R57
+R58
+R59
+R10
+R11
+!s100 JTWdkg4?BENaNHM[Z1Agf2
+!i10b 1
+Etb_or5
+R61
+R47
+R48
+R1
+R2
+R3
+R62
+R63
+l0
+L59
+V^GzaC4bTPHC]SoT@NNDY[1
+R6
+32
+R64
+R65
+R66
+R10
+R11
+!s100 [a^Z4P1SAjIDoF:iGSMTl1
+!i10b 1
+Aor5_verify
+R45
+R47
+R48
+R1
+R2
+DEx4 work 6 tb_or5 0 22 ^GzaC4bTPHC]SoT@NNDY[1
+l68
+L62
+VhV3djMWJHOlhmB2^e:3D72
+R6
+32
+R64
+R65
+R66
+R10
+R11
+!s100 B6MZJ99<dATzBm=iQ3T863
+!i10b 1
+Etb_xor2
+Z73 w1549436493
+R47
+R48
+R1
+R2
+R3
+Z74 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_xors.vhd
+Z75 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_xors.vhd
+l0
+L7
+VF0=n_No1;LgL0HWaQfkzk1
+!s100 Yjfa9Sm4kM65TTilQEZnd3
+R6
+32
+!i10b 1
+Z76 !s108 1549498375.860000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_xors.vhd|
+Z78 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/tb_xors.vhd|
+R10
+R11
+Axor2_verify
+Z79 DEx4 work 4 xor2 0 22 c7jWVK9C5b0m:@B3:DP8?3
+R47
+R48
+R1
+R2
+Z80 DEx4 work 7 tb_xor2 0 22 F0=n_No1;LgL0HWaQfkzk1
+l15
+L10
+Z81 VcPZYK8mWS`AnieX0H7UTJ1
+Z82 !s100 hO3jC[R2N>>IFnFcHoGcV2
+R6
+32
+!i10b 1
+R76
+R77
+R78
+R10
+R11
+Etb_xor3
+R73
+R47
+R48
+R1
+R2
+R3
+R74
+R75
+l0
+L48
+Vbe:4k^l=Kg2clb?EknHAj1
+!s100 Aa[Q>UG@hD`3Y6nPd;[NV0
+R6
+32
+!i10b 1
+R76
+R77
+R78
+R10
+R11
+Axor3_verify
+Z83 DEx4 work 4 xor3 0 22 Khb_=?6fUG3z4]oN_;6XN3
+R47
+R48
+R1
+R2
+Z84 DEx4 work 7 tb_xor3 0 22 be:4k^l=Kg2clb?EknHAj1
+l56
+L51
+Z85 VcZHhg4O0=6ABFk1COej^83
+Z86 !s100 hn]K;z2PU?LCM_@Cln5<E1
+R6
+32
+!i10b 1
+R76
+R77
+R78
+R10
+R11
+Etb_xor5
+R73
+R47
+R48
+R1
+R2
+R3
+R74
+R75
+l0
+L91
+V4XS7f<Q4Pn2AUjS9G<[5[0
+!s100 mCJNBbbLUPfzT1db6VEji1
+R6
+32
+!i10b 1
+R76
+R77
+R78
+R10
+R11
+Axor5_verify
+Z87 DEx4 work 4 xor5 0 22 0mYSBHFAH[`9V=K=SIjoB0
+R47
+R48
+R1
+R2
+Z88 DEx4 work 7 tb_xor5 0 22 4XS7f<Q4Pn2AUjS9G<[5[0
+l100
+L94
+Z89 VYYXzk`UBiB7iVSH:8UT5e2
+Z90 !s100 HgVFIezKzh2QVGD3B6k8F2
+R6
+32
+!i10b 1
+R76
+R77
+R78
+R10
+R11
+Exor2
+Z91 w1549491928
+R1
+R2
+R3
+Z92 8C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd
+Z93 FC:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd
+l0
+L39
+Vc7jWVK9C5b0m:@B3:DP8?3
+R6
+32
+Z94 !s108 1549498374.406000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd|
+Z96 !s107 C:/Users/DavidNaumann/Desktop/Classes/SPRING 2018/CpE5220-DigtalSystemsModelling/MP1/xors.vhd|
+R10
+R11
+!s100 ?P]3D5[4QbKU<:lG3e]jk1
+!i10b 1
+Axor2_eq
+R1
+R2
+R79
+l66
+L44
+VHG??9T0GXEXo7iB1@c`>W1
+R6
+32
+R94
+R95
+R96
+R10
+R11
+!s100 :i1AS[S:m`IehOZHgSj<91
+!i10b 1
+Exor3
+R91
+R1
+R2
+R3
+R92
+R93
+l0
+L87
+VKhb_=?6fUG3z4]oN_;6XN3
+R6
+32
+R94
+R95
+R96
+R10
+R11
+!s100 ^^DB]Ji;_l691?KdDGN<O3
+!i10b 1
+Axor3_eq
+R1
+R2
+R83
+l100
+L92
+Vkzi][ajQmLBa0o<Il7ABN0
+R6
+32
+R94
+R95
+R96
+R10
+R11
+!s100 zn=YP_=FRbLJ@L_BNbYUO0
+!i10b 1
+Exor5
+R91
+R1
+R2
+R3
+R92
+R93
+l0
+L112
+V0mYSBHFAH[`9V=K=SIjoB0
+R6
+32
+R94
+R95
+R96
+R10
+R11
+!s100 gFk8^jQg`STfRQX0V:ZzS1
+!i10b 1
+Axor5_eq
+R1
+R2
+R87
+l125
+L117
+V8zI_ZR]n43Plef0WfPQbz2
+R6
+32
+R94
+R95
+R96
+R10
+R11
+!s100 XaX4UBQQG`BLJbhE34J>k0
+!i10b 1
