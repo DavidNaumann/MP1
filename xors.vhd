@@ -41,11 +41,11 @@ begin
   -- neg_i2 = !i1
   N2: NOT1 port map(i2, neg_i2);
   -- and_abn_o = i1 & neg_i2 (or i1 & !i2)
-  A1: AND2 port map(i1,neg_i2, and_abn_o);
+  A21: AND2 port map(i1,neg_i2, and_abn_o);
   -- and_anb_o = neg_i1 & i2 (or !i1 & !i2)
-  A2: AND2 port map(neg_i1,i2, and_anb_o);
+  A22: AND2 port map(neg_i1,i2, and_anb_o);
   -- o = and_abn_o || and_anb_o (or (i1 & !i2) || (!i1 & i2))
-  O1: OR2 port map(and_abn_o, and_anb_o, o);
+  O21: OR2 port map(and_abn_o, and_anb_o, o);
 end XOR2_EQ;
 
 
@@ -68,9 +68,9 @@ architecture XOR3_EQ of XOR3 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 xor i2
-  X1: XOR2 port map(i1, i2, tempo);
+  X21: XOR2 port map(i1, i2, tempo);
   -- o = i3 xor tempo (or i1 xor i2 xor i3)
-  X2: XOR2 port map(i3, tempo, o);
+  X22: XOR2 port map(i3, tempo, o);
 end XOR3_EQ;
 
 
@@ -93,7 +93,7 @@ architecture XOR5_EQ of XOR5 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 xor i2 xor i3
-  X1: XOR3 port map(i1, i2, i3, tempo);
+  X31: XOR3 port map(i1, i2, i3, tempo);
   -- o = i4 xor i5 xor tempo (or i1 xor i2 xor i3 or i4 or i5)
-  X2: XOR3 port map(i4, i5, tempo, o);
+  X32: XOR3 port map(i4, i5, tempo, o);
 end XOR5_EQ;

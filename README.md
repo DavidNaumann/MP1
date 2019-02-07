@@ -17,6 +17,8 @@ What things you need to install the software and how to install them
 * X(ab) =  XOR with a inputs of instance number b
 * NA(ab) = NAND with a inputs of instance number b (if it appeared)
 
+duv is the gate instance for every current test bench (Device Under Verification)
+
 ```
 i.e. A21 would be the first instance of a 2 input AND gate 
 or OR53 would be the third instnace of a 5 input OR gate
@@ -30,9 +32,13 @@ or OR53 would be the third instnace of a 5 input OR gate
 * NAND# =  NAND gate of # inputs
 * NOT1  =  NOT gate of 1 input
 
-For architectures just append _EQ on the end of the component/entity name
+For normal architecture definitions just append _EQ on the end of the component/entity name
 
+#### Testbench Cases
+
+For testbench architectures just append _VERIFY on the end of the component/entity name
 For test bench entities attach TB_ before the component/entity name
+apply_test_cases
 
 ```
 i.e. AND5 would be an AND gate component of 5 inputs, OR3 would be an OR gate component,

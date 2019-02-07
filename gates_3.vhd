@@ -20,9 +20,9 @@ architecture AND3_EQ of AND3 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 & i2
-  A1: AND2 port map(i1,i2,tempo);
+  A21: AND2 port map(i1,i2,tempo);
   -- o = i3 & tempo (or o = i1 & i2 & i3)
-  A2: AND2 port map(i3,tempo,o);
+  A22: AND2 port map(i3,tempo,o);
 end AND3_EQ;
 
 
@@ -45,7 +45,7 @@ architecture OR3_EQ of OR3 is
   signal tempo: STD_LOGIC;
 begin
   -- tempo = i1 || i2
-  A1: OR2 port map(i1,i2,tempo);
+  O21: OR2 port map(i1,i2,tempo);
   -- o = i3 || tempo (or o = i1 || i2 || i3)
-  A2: OR2 port map(i3,tempo,o);
+  O22: OR2 port map(i3,tempo,o);
 end OR3_EQ;
