@@ -1,17 +1,6 @@
-
-
--- __________________________
--- Variables
-
--- i# = Input Variable #
--- curr_i = Stores all bits of current input into vector for testbenching
--- neg_i# = negation of i# (NOT i#)
--- tempo = temporary output to calculations with, always
--- o = output, always
-
 # Mini Project for CPE 5220
 
-One Paragraph of project description goes here
+First project for CPE 5220 in the Spring 2019 semester!
 
 ## General Information
 
