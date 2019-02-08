@@ -7,17 +7,17 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Creates entity for test bench
-entity TB_XOR2 is
-end entity TB_XOR2;
+entity TB_XOR2_E is
+end entity TB_XOR2_E;
 
-architecture XOR2_VERIFY of TB_XOR2 is
+architecture XOR2_E_VERIFY of TB_XOR2_E is
   -- i1 = Input 1, i2 = Input 2, o = output
   signal i1, i2, o : STD_LOGIC;
   -- curri = Temporary variable to loop through inputs
   signal curr_i : STD_LOGIC_VECTOR(1 downto 0) := "00";
 begin
   -- Design Under Verication = XOR2 Gate, portmapping test bench variables to test entity's
-  duv:  entity work.XOR2(XOR2_EQ)
+  duv:  entity work.XOR2_E(XOR2_E_EQ)
         port map (i1 => i1, i2 => i2, o => o);
         
   apply_test_cases : process is
@@ -40,7 +40,7 @@ begin
     end loop;
     wait;
   end process apply_test_cases;
-end architecture XOR2_VERIFY;
+end architecture XOR2_E_VERIFY;
 
 -- TB_XOR3, Test Bench for XOR3 gate, Creation
 library IEEE;
@@ -48,17 +48,17 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Creates entity for test bench
-entity TB_XOR3 is
-end entity TB_XOR3;
+entity TB_XOR3_C is
+end entity TB_XOR3_C;
 
-architecture XOR3_VERIFY of TB_XOR3 is
+architecture XOR3_C_VERIFY of TB_XOR3_C is
   -- i1 = Input 1, i2 = Input 2, i3 = Input 3, o = output
   signal i1, i2, i3, o : STD_LOGIC;
   -- curri = Temporary variable to loop through inputs
   signal curr_i : STD_LOGIC_VECTOR(2 downto 0) := "000";
 begin
   -- Design Under Verication = XOR3 Gate, portmapping test bench variables to test entity's
-  duv:  entity work.XOR3(XOR3_EQ)
+  duv:  entity work.XOR3_C(XOR3_C_EQ)
         port map (i1 => i1, i2 => i2, i3 => i3, o => o);
         
   apply_test_cases : process is
@@ -83,7 +83,7 @@ begin
     end loop;
     wait;
   end process apply_test_cases;
-end architecture XOR3_VERIFY;
+end architecture XOR3_C_VERIFY;
 
 -- TB_XOR3, Test Bench for XOR3 gate, Creation
 library IEEE;
@@ -91,10 +91,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Creates entity for test bench
-entity TB_XOR5 is
-end entity TB_XOR5;
+entity TB_XOR5_SC is
+end entity TB_XOR5_SC;
 
-architecture XOR5_VERIFY of TB_XOR5 is
+architecture XOR5_SC_VERIFY of TB_XOR5_SC is
   -- i1 = Input 1, i2 = Input 2, i3 = Input 3, etc.
   -- o = output
   signal i1, i2, i3, i4, i5, o : STD_LOGIC;
@@ -102,7 +102,7 @@ architecture XOR5_VERIFY of TB_XOR5 is
   signal curr_i : STD_LOGIC_VECTOR(4 downto 0) := "00000";
 begin
   -- Design Under Verication = XOR5 Gate, portmapping test bench variables to test entity's
-  duv:  entity work.XOR5(XOR5_EQ)
+  duv:  entity work.XOR5_SC(XOR5_SC_EQ)
         port map (i1 => i1, i2 => i2, i3 => i3, i4 => i4, i5 => i5, o => o);
         
   apply_test_cases : process is
@@ -131,4 +131,4 @@ begin
     end loop;
     wait;
   end process apply_test_cases;
-end architecture XOR5_VERIFY;
+end architecture XOR5_SC_VERIFY;
