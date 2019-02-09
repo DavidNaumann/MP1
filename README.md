@@ -21,7 +21,7 @@ duv is the gate instance for every current test bench (Device Under Verification
 
 ```
 i.e. A21 would be the first instance of a 2 input AND gate 
-or OR53 would be the third instnace of a 5 input OR gate
+or OR53 would be the third instance of a 5 input OR gate
 ```
 
 ### Components, Entities and Architectures
@@ -34,10 +34,16 @@ or OR53 would be the third instnace of a 5 input OR gate
 
 For normal architecture definitions just append _EQ on the end of the component/entity name
 
-For types:
+#### Gates of Different Types for Components
 _E appended at the end is a gate that is made using its equation
 _C appended at the end is a gate of components
 _SC appended at the end is a gate of itself with smaller inputs (self components (i.e NAND5 would be made of NAND2))
+
+```
+i.e.  NAND3_C would be NAND3 with AND3, OR3, NOT1 components
+      NAND3_E would be NAND3 with AND, OR, NOT built in functions
+      NAND3_SC would be NAND3 with NAND2 components (self-component)
+```
 
 #### Testbench Cases
 
