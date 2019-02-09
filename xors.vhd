@@ -98,6 +98,22 @@ end XOR2_C_EQ;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+entity XOR3_E is
+  port (  i1, i2, i3 : in STD_LOGIC; -- i1 = Input 1, i2 = Input 2, i3 = Input 3
+          o : out STD_LOGIC); -- o = Output
+end XOR3_E;
+
+architecture XOR3_E_EQ of XOR3_E is
+begin
+
+  o <= (((NOT i1) AND (NOT i2) AND i3) OR ((NOT i1) AND i2 AND (NOT i3)) OR (i1 AND (NOT i2) AND (NOT i3)) OR (i1 AND i2 AND i3));
+  
+end XOR3_E_EQ;
+
+-- XOR3_C, 3 input XOR gate, Creation
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
 entity XOR3_C is
   port (  i1, i2, i3 : in STD_LOGIC; -- i1 = Input 1, i2 = Input 2, i3 = Input 3
           o : out STD_LOGIC); -- o = Output
@@ -110,7 +126,7 @@ architecture XOR3_C_EQ of XOR3_C is
             o: out STD_LOGIC);
   end component;
   -- Includes component OR3 to simplify logic
-  component OR2_E is
+  component OR2 is
     port (  i1, i2: in STD_LOGIC;
             o: out STD_LOGIC);
   end component;
@@ -128,7 +144,7 @@ begin
   N2: NOT1 port map(i2, neg_i2);
   N3: NOT1 port map(i3, neg_i3);
   -- tempo_1 = i1'i2'i3
-  A1: AND3_E port map(neg_i1,neg_i2,i3, tempo_1);
+  A1: AND3_E port map(neg_i1, neg_i2, i3, tempo_1);
   -- tempo_2 = i1'i2i3'
   A2: AND3_E port map(neg_i1, i2, neg_i3, tempo_2);
   -- tempo_3 = i1i2'i3'
@@ -136,11 +152,11 @@ begin
   -- tempo_4 = i1i2i3
   A4: AND3_E port map(i1, i2, i3, tempo_4);
   -- tempo_5 = i1'i2'i3 or i1'i2i3'
-  O1: OR2_E port map(tempo_1, tempo_2, tempo_5);
+  O1: OR2 port map(tempo_1, tempo_2, tempo_5);
   -- tempo_6 = i1i2'i3' or i1i2i3
-  O2: OR2_E port map(tempo_3, tempo_4, tempo_6);
+  O2: OR2 port map(tempo_3, tempo_4, tempo_6);
   -- o = XOR3 = i1'i2'i3 or i1'i2i3' or i1i2'i3' or i1i2i3
-  O3: OR2_E port map(tempo_5, tempo_6, o);
+  O3: OR2 port map(tempo_5, tempo_6, o);
   
 end XOR3_C_EQ;
 
@@ -170,6 +186,107 @@ end XOR3_SC_EQ;
 
 -- _________________________________________________________________
 -- XOR Gates for 5 Inputs
+
+-- XOR5_C, 5 input XOR gate, Creation
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity XOR5_E is
+  port (  i1, i2, i3, i4, i5 : in STD_LOGIC; -- i1 = Input 1, i2 = Input 2, i3 = Input 3
+          o : out STD_LOGIC); -- o = Output
+end XOR5_E;
+
+architecture XOR5_E_EQ of XOR5_E is
+signal tempo_1, tempo_2, tempo_3, tempo_4, tempo_5: STD_LOGIC;
+
+begin
+
+tempo_1 <= (((NOT i1) AND (NOT i2) AND (NOT i3) AND (NOT i4) AND i5) OR ((NOT i1) AND (NOT i2) AND (NOT i3) AND i4 AND (NOT i5)) OR ((NOT i1) AND (NOT i2) AND i3 AND (NOT i4) AND (NOT i5)));
+tempo_2 <=  (((NOT i1) AND (NOT i2) AND i3 AND i4 AND i5) OR ((NOT i1) AND i2 AND (NOT i3) AND (NOT i4) AND (NOT i5)) OR ((NOT i1) AND i2 AND (NOT i3) AND i4 AND i5));
+tempo_3 <= (((NOT i1) AND i2 AND i3 AND (NOT i4) AND i5) OR ((NOT i1) AND i2 AND i3 AND i4 AND (NOT i5)) OR (i1 AND (NOT i2) AND (NOT i3) AND (NOT i4) AND (NOT i5)));
+tempo_4 <= ((i1 AND (NOT i2) AND (NOT i3) AND i4 AND i5) OR (i1 AND (NOT i2) AND i3 AND (NOT i4) AND i5) OR (i1 AND (NOT i2) AND i3 AND i4 AND (NOT i5)));
+tempo_5 <= ((i1 AND i2 AND (NOT i3) AND (NOT i4) AND i5) OR (i1 AND i2 AND (NOT i3) AND i4 AND (NOT i5)) OR (i1 AND i2 AND i3 AND (NOT i4) AND (NOT i5)) OR (i1 AND i2 AND i3 AND i4 AND i5));
+  
+o <= (tempo_1 OR tempo_2 OR tempo_3 OR tempo_4 OR tempo_5);
+end XOR5_E_EQ;
+
+-- XOR5_C, 5 input XOR gate, Creation
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity XOR5_C is
+  port (  i1, i2, i3, i4, i5 : in STD_LOGIC; -- i1 = Input 1, i2 = Input 2, i3 = Input 3
+          o : out STD_LOGIC); -- o = Output
+end XOR5_C;
+
+architecture XOR5_C_EQ of XOR5_C is
+  -- Includes component AND3 to simplify logic
+  component AND5_E is
+    port (  i1, i2, i3, i4, i5: in STD_LOGIC;
+            o: out STD_LOGIC);
+  end component;
+  -- Includes component OR5 to simplify logic
+  component OR5_E is
+    port (  i1, i2, i3, i4, i5: in STD_LOGIC;
+            o: out STD_LOGIC);
+  end component;
+  -- Includes component NOT1 to simplify logic
+  component NOT1 is
+    port (  i1: in STD_LOGIC;
+            o: out STD_LOGIC);
+  end component;
+  -- tempo_# = Temporary output/signal
+  signal neg_i1, neg_i2, neg_i3, neg_i4, neg_i5: STD_LOGIC;
+  signal tempo_1, tempo_2, tempo_3, tempo_4, tempo_5, tempo_6, tempo_7, tempo_8: STD_LOGIC;
+  signal tempo_9, tempo_10, tempo_11, tempo_12, tempo_13, tempo_14, tempo_15, tempo_16: STD_LOGIC;
+  signal tempo_17, tempo_18, tempo_19: STD_LOGIC;
+begin
+
+  N1: NOT1 port map(i1, neg_i1);
+  N2: NOT1 port map(i2, neg_i2);
+  N3: NOT1 port map(i3, neg_i3);
+  N4: NOT1 port map(i4, neg_i4);
+  N5: NOT1 port map(i5, neg_i5);
+  
+  -- tempo_1 = i1'i2'i3'i4'i5
+  A1: AND5_E port map(neg_i1, neg_i2, neg_i3, neg_i4, i5, tempo_1);
+  -- tempo_2 = i1'i2'i3'i4i5'
+  A2: AND5_E port map(neg_i1, neg_i2, neg_i3, i4, neg_i5, tempo_2);
+  -- tempo_3 = i1'i2'i3i4'i5'
+  A3: AND5_E port map(neg_i1, neg_i2, i3, neg_i4, neg_i5, tempo_3);
+  -- tempo_4 = i1'i2'i3i4i5
+  A4: AND5_E port map(neg_i1, neg_i2, i3, i4, i5, tempo_4);
+  -- tempo_5 = i1'i2i3'i4'i5'
+  A5: AND5_E port map(neg_i1, i2, neg_i3, neg_i4, neg_i5, tempo_5);
+  -- tempo_6 = i1'i2i3'i4i5
+  A6: AND5_E port map(neg_i1, i2, neg_i3, i4, i5, tempo_6);
+  -- tempo_7 = i1'i2i3i4'i5
+  A7: AND5_E port map(neg_i1, i2, i3, neg_i4, i5, tempo_7);
+  -- tempo_8 = i1'i2i3i4i5'
+  A8: AND5_E port map(neg_i1, i2, i3, i4, neg_i5, tempo_8);
+  -- tempo_9 = i1i2'i3'i4'i5'
+  A9: AND5_E port map(i1, neg_i2, neg_i3, neg_i4, neg_i5, tempo_9);
+  -- tempo_10 = i1i2'i3'i4i5
+  A10: AND5_E port map(i1, neg_i2, neg_i3, i4, i5, tempo_10);
+  -- tempo_11 = i1i2'i3i4'i5
+  A11: AND5_E port map(i1, neg_i2, i3, neg_i4, i5, tempo_11);
+  -- tempo_12 = i1i2'i3i4i5'
+  A12: AND5_E port map(i1, neg_i2, i3, i4, neg_i5, tempo_12);
+  -- tempo_13 = i1i2i3'i4'i5
+  A13: AND5_E port map(i1, i2, neg_i3, neg_i4, i5, tempo_13);
+  -- tempo_14 = i1i2i3'i4i5'
+  A14: AND5_E port map(i1, i2, neg_i3, i4, neg_i5, tempo_14);
+  -- tempo_15 = i1i2i3i4'i5'
+  A15: AND5_E port map(i1, i2, i3, neg_i4, neg_i5, tempo_15);
+  -- tempo_16 = i1i2i3i4i5
+  A16: AND5_E port map(i1, i2, i3, i4, i5, tempo_16);  
+ 
+  -- Store last parts in Sum of products
+  O1: OR5_E port map(tempo_1, tempo_2, tempo_3, tempo_4, tempo_5, tempo_17);
+  O2: OR5_E port map(tempo_17, tempo_6, tempo_7, tempo_8, tempo_9, tempo_18);
+  O3: OR5_E port map(tempo_18, tempo_10, tempo_11, tempo_12, tempo_13, tempo_19);
+  O4: OR5_E port map(tempo_19, tempo_14, tempo_15, tempo_16, '0', o);
+end XOR5_C_EQ;
 
 -- XOR5, 5 input XOR gate, Creation
 library IEEE;
