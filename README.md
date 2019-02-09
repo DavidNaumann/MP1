@@ -6,15 +6,6 @@ First project for CPE 5220 in the Spring 2019 semester!
 
 This project includes implementations of AND, OR, XOR and NAND gates for inputs of 2, 3 and 5 bits of information. Also include is a NOT gate that takes one input and negates it.
 
-### NEED TO ADD
-
-* OR3 equation model
-* OR5 equation model
-* NAND3 equation model, using NAND2
-* NAND5 equation model, using NAND2 component
-* XOR3 equation model, XOR3 using basic gate components
-* XOR5 equation model, XOR5 using basic gates components
-
 
 ### Gate Instances
 
@@ -42,6 +33,11 @@ or OR53 would be the third instnace of a 5 input OR gate
 * NOT1  =  NOT gate of 1 input
 
 For normal architecture definitions just append _EQ on the end of the component/entity name
+
+For types:
+_E appended at the end is a gate that is made using its equation
+_C appended at the end is a gate of components
+_SC appended at the end is a gate of itself with smaller inputs (self components (i.e NAND5 would be made of NAND2))
 
 #### Testbench Cases
 
