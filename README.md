@@ -63,5 +63,5 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 ### Variables
 * i = Input Variable #
 * neg_i# = negation of i# (NOT i#)
-* tempo = temporary output to calculations with, always
+* tempo(_#) = temporary output of calculations for final computation (when more than 1 is present, _# will be added to the end to enumerate them)
 * o = output, always
