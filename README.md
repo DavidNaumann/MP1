@@ -1,4 +1,4 @@
-# Mini Project for CPE 5220
+# Mini Project 1 (MP1) for CPE 5220
 
 First project for CPE 5220 in the Spring 2019 semester!
 
