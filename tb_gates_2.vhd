@@ -1,6 +1,9 @@
 -- File: tb_gates_2.vhd
 -- Includes: Testbenches for 2 Input Gates such as AND2 and OR2
 
+-- _________________________________________________________________
+-- AND Gates for 2 Inputs Test Benches
+
 -- TB_AND2, Test Bench for AND2 gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -42,6 +45,9 @@ begin
     wait;
   end process apply_test_cases;
 end architecture AND2_VERIFY;
+
+-- _________________________________________________________________
+-- OR Gates for 2 Inputs Test Benches
 
 -- TB_OR2, Test Bench for OR2 gate, Creation
 library IEEE;

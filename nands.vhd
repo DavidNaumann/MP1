@@ -122,11 +122,11 @@ architecture NAND3_SC_EQ of NAND3_SC is
   signal tempo_1, tempo_2: STD_LOGIC;
 begin
   -- i1 NAND i2
-  NA1: NAND2_E port map(i1, i2, tempo_1);
+  NA21: NAND2_E port map(i1, i2, tempo_1);
   -- (i1 AND i2) -> not(i1 NAND i2)
-  NA2: NAND2_E port map(tempo_1, tempo_1, tempo_2);
+  NA22: NAND2_E port map(tempo_1, tempo_1, tempo_2);
   -- NAND3 -> not (i1 AND i2 AND i3)
-  NA3: NAND2_E port map(i3, tempo_2, o);
+  NA23: NAND2_E port map(i3, tempo_2, o);
   
 end NAND3_SC_EQ;
 
@@ -205,18 +205,18 @@ architecture NAND5_SC_EQ of NAND5_SC is
   signal tempo_1, tempo_2, tempo_3, tempo_4, tempo_5, tempo_6: STD_LOGIC;
 begin
   -- tempo_1 = i1 NAND i2
-  NA1: NAND2_E port map(i1, i2, tempo_1);
+  NA21: NAND2_E port map(i1, i2, tempo_1);
   -- tempo_2 = i3 NAND i4
-  NA2: NAND2_E port map(i3, i4, tempo_2);
+  NA22: NAND2_E port map(i3, i4, tempo_2);
   -- tempo_3 = i1 AND i2 = NOT (i1 NAND i2)
-  NA3: NAND2_E port map(tempo_1, tempo_1, tempo_3);
+  NA23: NAND2_E port map(tempo_1, tempo_1, tempo_3);
   -- tempo_4 = i3 AND i4 = NOT (i3 NAND i4)
-  NA4: NAND2_E port map(tempo_2, tempo_2, tempo_4);
+  NA24: NAND2_E port map(tempo_2, tempo_2, tempo_4);
   -- tempo_5 = NAND4 = NOT (i1 AND i2 AND i3 AND i4)
-  NA5: NAND2_E port map(tempo_3, tempo_4, tempo_5);
+  NA25: NAND2_E port map(tempo_3, tempo_4, tempo_5);
   -- tempo_6 = i1 AND i2 AND i3 AND i4
-  NA6: NAND2_E port map(tempo_5, tempo_5, tempo_6);
+  NA26: NAND2_E port map(tempo_5, tempo_5, tempo_6);
   -- tempo_6 = NAND5
-  NA7: NAND2_E port map(i5, tempo_6, o);
+  NA27: NAND2_E port map(i5, tempo_6, o);
   
 end NAND5_SC_EQ;

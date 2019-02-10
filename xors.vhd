@@ -144,19 +144,19 @@ begin
   N2: NOT1 port map(i2, neg_i2);
   N3: NOT1 port map(i3, neg_i3);
   -- tempo_1 = i1'i2'i3
-  A1: AND3_E port map(neg_i1, neg_i2, i3, tempo_1);
+  A31: AND3_E port map(neg_i1, neg_i2, i3, tempo_1);
   -- tempo_2 = i1'i2i3'
-  A2: AND3_E port map(neg_i1, i2, neg_i3, tempo_2);
+  A32: AND3_E port map(neg_i1, i2, neg_i3, tempo_2);
   -- tempo_3 = i1i2'i3'
-  A3: AND3_E port map(i1, neg_i2, neg_i3, tempo_3);
+  A33: AND3_E port map(i1, neg_i2, neg_i3, tempo_3);
   -- tempo_4 = i1i2i3
-  A4: AND3_E port map(i1, i2, i3, tempo_4);
+  A34: AND3_E port map(i1, i2, i3, tempo_4);
   -- tempo_5 = i1'i2'i3 or i1'i2i3'
-  O1: OR2 port map(tempo_1, tempo_2, tempo_5);
+  O21: OR2 port map(tempo_1, tempo_2, tempo_5);
   -- tempo_6 = i1i2'i3' or i1i2i3
-  O2: OR2 port map(tempo_3, tempo_4, tempo_6);
+  O22: OR2 port map(tempo_3, tempo_4, tempo_6);
   -- o = XOR3 = i1'i2'i3 or i1'i2i3' or i1i2'i3' or i1i2i3
-  O3: OR2 port map(tempo_5, tempo_6, o);
+  O23: OR2 port map(tempo_5, tempo_6, o);
   
 end XOR3_C_EQ;
 
@@ -249,43 +249,43 @@ begin
   N5: NOT1 port map(i5, neg_i5);
   
   -- tempo_1 = i1'i2'i3'i4'i5
-  A1: AND5_E port map(neg_i1, neg_i2, neg_i3, neg_i4, i5, tempo_1);
+  A51: AND5_E port map(neg_i1, neg_i2, neg_i3, neg_i4, i5, tempo_1);
   -- tempo_2 = i1'i2'i3'i4i5'
-  A2: AND5_E port map(neg_i1, neg_i2, neg_i3, i4, neg_i5, tempo_2);
+  A52: AND5_E port map(neg_i1, neg_i2, neg_i3, i4, neg_i5, tempo_2);
   -- tempo_3 = i1'i2'i3i4'i5'
-  A3: AND5_E port map(neg_i1, neg_i2, i3, neg_i4, neg_i5, tempo_3);
+  A53: AND5_E port map(neg_i1, neg_i2, i3, neg_i4, neg_i5, tempo_3);
   -- tempo_4 = i1'i2'i3i4i5
-  A4: AND5_E port map(neg_i1, neg_i2, i3, i4, i5, tempo_4);
+  A54: AND5_E port map(neg_i1, neg_i2, i3, i4, i5, tempo_4);
   -- tempo_5 = i1'i2i3'i4'i5'
-  A5: AND5_E port map(neg_i1, i2, neg_i3, neg_i4, neg_i5, tempo_5);
+  A55: AND5_E port map(neg_i1, i2, neg_i3, neg_i4, neg_i5, tempo_5);
   -- tempo_6 = i1'i2i3'i4i5
-  A6: AND5_E port map(neg_i1, i2, neg_i3, i4, i5, tempo_6);
+  A56: AND5_E port map(neg_i1, i2, neg_i3, i4, i5, tempo_6);
   -- tempo_7 = i1'i2i3i4'i5
-  A7: AND5_E port map(neg_i1, i2, i3, neg_i4, i5, tempo_7);
+  A57: AND5_E port map(neg_i1, i2, i3, neg_i4, i5, tempo_7);
   -- tempo_8 = i1'i2i3i4i5'
-  A8: AND5_E port map(neg_i1, i2, i3, i4, neg_i5, tempo_8);
+  A58: AND5_E port map(neg_i1, i2, i3, i4, neg_i5, tempo_8);
   -- tempo_9 = i1i2'i3'i4'i5'
-  A9: AND5_E port map(i1, neg_i2, neg_i3, neg_i4, neg_i5, tempo_9);
+  A59: AND5_E port map(i1, neg_i2, neg_i3, neg_i4, neg_i5, tempo_9);
   -- tempo_10 = i1i2'i3'i4i5
-  A10: AND5_E port map(i1, neg_i2, neg_i3, i4, i5, tempo_10);
+  A510: AND5_E port map(i1, neg_i2, neg_i3, i4, i5, tempo_10);
   -- tempo_11 = i1i2'i3i4'i5
-  A11: AND5_E port map(i1, neg_i2, i3, neg_i4, i5, tempo_11);
+  A511: AND5_E port map(i1, neg_i2, i3, neg_i4, i5, tempo_11);
   -- tempo_12 = i1i2'i3i4i5'
-  A12: AND5_E port map(i1, neg_i2, i3, i4, neg_i5, tempo_12);
+  A512: AND5_E port map(i1, neg_i2, i3, i4, neg_i5, tempo_12);
   -- tempo_13 = i1i2i3'i4'i5
-  A13: AND5_E port map(i1, i2, neg_i3, neg_i4, i5, tempo_13);
+  A513: AND5_E port map(i1, i2, neg_i3, neg_i4, i5, tempo_13);
   -- tempo_14 = i1i2i3'i4i5'
-  A14: AND5_E port map(i1, i2, neg_i3, i4, neg_i5, tempo_14);
+  A514: AND5_E port map(i1, i2, neg_i3, i4, neg_i5, tempo_14);
   -- tempo_15 = i1i2i3i4'i5'
-  A15: AND5_E port map(i1, i2, i3, neg_i4, neg_i5, tempo_15);
+  A515: AND5_E port map(i1, i2, i3, neg_i4, neg_i5, tempo_15);
   -- tempo_16 = i1i2i3i4i5
-  A16: AND5_E port map(i1, i2, i3, i4, i5, tempo_16);  
+  A516: AND5_E port map(i1, i2, i3, i4, i5, tempo_16);  
  
   -- Store last parts in Sum of products
-  O1: OR5_E port map(tempo_1, tempo_2, tempo_3, tempo_4, tempo_5, tempo_17);
-  O2: OR5_E port map(tempo_17, tempo_6, tempo_7, tempo_8, tempo_9, tempo_18);
-  O3: OR5_E port map(tempo_18, tempo_10, tempo_11, tempo_12, tempo_13, tempo_19);
-  O4: OR5_E port map(tempo_19, tempo_14, tempo_15, tempo_16, '0', o);
+  O51: OR5_E port map(tempo_1, tempo_2, tempo_3, tempo_4, tempo_5, tempo_17);
+  O52: OR5_E port map(tempo_17, tempo_6, tempo_7, tempo_8, tempo_9, tempo_18);
+  O53: OR5_E port map(tempo_18, tempo_10, tempo_11, tempo_12, tempo_13, tempo_19);
+  O54: OR5_E port map(tempo_19, tempo_14, tempo_15, tempo_16, '0', o);
 end XOR5_C_EQ;
 
 -- XOR5, 5 input XOR gate, Creation

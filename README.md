@@ -39,6 +39,8 @@ _E appended at the end is a gate that is made using its equation
 _C appended at the end is a gate of components
 _SC appended at the end is a gate of itself with smaller inputs (self components (i.e NAND5 would be made of NAND2))
 
+NOTE: *Only gates without appended types are NOT1, AND2 and OR2 since they are considered base gates*
+
 ```
 i.e.  NAND3_C would be NAND3 with AND3, OR3, NOT1 components
       NAND3_E would be NAND3 with AND, OR, NOT built in functions
