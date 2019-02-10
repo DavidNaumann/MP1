@@ -70,7 +70,7 @@ begin
   o <= NOT (i1 AND i2 AND i3);
 end NAND3_E_EQ;
 
--- NAND3, 3 input NAND gate, Component Creation
+-- NAND3_C, 3 input NAND gate, Component Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -81,7 +81,7 @@ end NAND3_C;
 
 architecture NAND3_C_EQ of NAND3_C is
   -- Includes component OR3 to simplify logic
-  component OR3 is
+  component OR3_E is
     port (  i1, i2, i3: in STD_LOGIC;
             o: out STD_LOGIC);
   end component;
@@ -100,7 +100,7 @@ begin
   -- neg_i3 = !i3
   N3: NOT1 port map(i3, neg_i3);
   -- o = neg_i1 || neg_i2 || neg_i3 (or o = !i1 || !i2 || !i3)
-  O31: OR3 port map(neg_i1, neg_i2, neg_i3, o);
+  O31: OR3_E port map(neg_i1, neg_i2, neg_i3, o);
 end NAND3_C_EQ;
 
 -- NAND3, 3 input NAND gate, Self Component Creation
@@ -160,7 +160,7 @@ end NAND5_C;
 
 architecture NAND5_C_EQ of NAND5_C is
   -- Includes component OR5 to simplify logic
-  component OR5 is
+  component OR5_E is
     port (  i1,i2,i3,i4,i5: in STD_LOGIC;
             o: out STD_LOGIC);
   end component;
@@ -183,7 +183,7 @@ begin
   -- neg_i5 = !i5
   N5: NOT1 port map(i5, neg_i5);
   -- o = neg_i1 || neg_i2 || neg_i3 || neg_i4 || neg_i5 (or o = !i1 || !i2 || !i3 || !i4 || !i5)
-  O51: OR5 port  map(neg_i1,neg_i2,neg_i3,neg_i4,neg_i5,o);
+  O51: OR5_E port  map(neg_i1,neg_i2,neg_i3,neg_i4,neg_i5,o);
 end NAND5_C_EQ;
 
 -- NAND5, 5 input NAND gate, Self Component Creation
