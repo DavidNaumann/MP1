@@ -85,7 +85,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 AND2_E Verification:
 
-![AND2_E Verification][https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp]
+![AND2_E Verification][https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp?raw=true]
 
 ### OR Gates
 
