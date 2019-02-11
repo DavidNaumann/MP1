@@ -6,10 +6,21 @@ First project for CPE 5220 in the Spring 2019 semester!
 
 This project includes implementations of AND, OR, XOR and NAND gates for inputs of 2, 3 and 5 bits of information. Also include is a NOT gate that takes one input and negates it.
 
+### Table of Contents
+1. [References](#references)
+	1. [Gate Instances](#gate-instances)
+	2. [Component, Entities and Architectures](#components-entities-and-architectures)
+		1. [Gates of Different Types for Components](#gates-of-different-types-for-components)
+		2. [Testbench Cases](#testbench-cases)
+	3. [Variables](#variables)
+2. [Verifications](#verifications)
+	1. [AND Gates](#and_gates)
+
+## References
 
 ### Gate Instances
 
-What things you need to install the software and how to install them
+Name of all of the gate instances
 
 * A(ab) =  AND with a inputs of instance number b
 * O(ab) =  OR with a inputs of instance number b
@@ -65,5 +76,19 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 ### Variables
 * i = Input Variable #
 * neg_i# = negation of i# (NOT i#)
-* tempo(_#) = temporary output of calculations for final computation (when more than 1 is present, _# will be added to the end to enumerate them)
+* tempo(_#) = temporary output of calculations for final computation (when more than 1 is present, _# will be added to the end to enumerate them.
 * o = output, always
+
+## Verifications
+
+### AND Gates
+
+AND2_E Verification:
+
+![AND2_E Verification][https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp]
+
+### OR Gates
+
+### NAND Gates
+
+### XOR Gates
