@@ -157,9 +157,13 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 #### NAND2 (NAND with 2 inputs)
 
-* NAND2 (NAND2 made up of equations) Verification:
+* NAND2_E (NAND2_E made up of equations) Verification:
 
-![NAND2 Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2.bmp "NAND2 Verification image")
+![NAND2_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2_e.bmp "NAND2_E Verification image")
+
+* NAND2_C (NAND2_C made up of equations) Verification:
+
+![NAND2_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2_c.bmp "NAND2_C Verification image")
 
 #### NAND3 (NAND with 3 inputs)
 
