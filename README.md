@@ -14,10 +14,10 @@ This project includes implementations of AND, OR, XOR and NAND gates for inputs 
 		2. [Testbench Cases](#testbench-cases)
 	3. [Variables](#variables)
 2. [Verifications](#verifications)
-	1. [AND Gates](#and_gates)
-	2. [OR Gates](#or_gates)
-	3. [NAND Gates](#nand_gates)
-	4. [XOR Gates](#xor_gates)
+	1. [AND Gates](#and-gates)
+	2. [OR Gates](#or-gates)
+	3. [NAND Gates](#nand-gates)
+	4. [XOR Gates](#xor-gates)
 
 ## References
 
