@@ -95,7 +95,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![AND3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp "AND3_E Verification image")
 
-* AND3_C (AND3 made up of compents) Verification:
+* AND3_C (AND3 made up of components) Verification:
 
 ![AND3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_c.bmp "AND2_3 Verification image")
 
@@ -109,7 +109,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![AND5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and5_e.bmp "AND5_E Verification image")
 
-* AND5_C (AND5 made up of compents) Verification:
+* AND5_C (AND5 made up of components) Verification:
 
 ![AND5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and5_c.bmp "AND5_C Verification image")
 
@@ -131,7 +131,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![OR3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or3_e.bmp "OR3_E Verification image")
 
-* OR3_C (OR3 made up of compents) Verification:
+* OR3_C (OR3 made up of components) Verification:
 
 ![OR3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or3_c.bmp "OR3_3 Verification image")
 
@@ -145,7 +145,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![OR5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or5_e.bmp "OR5_E Verification image")
 
-* OR5_C (OR5 made up of compents) Verification:
+* OR5_C (OR5 made up of components) Verification:
 
 ![OR5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or5_c.bmp "OR5_C Verification image")
 
@@ -161,7 +161,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![NAND2_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2_e.bmp "NAND2_E Verification image")
 
-* NAND2_C (NAND2_C made up of equations) Verification:
+* NAND2_C (NAND2_C made up of components) Verification:
 
 ![NAND2_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2_c.bmp "NAND2_C Verification image")
 
@@ -171,7 +171,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![NAND3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand3_e.bmp "NAND3_E Verification image")
 
-* NAND3_C (NAND3 made up of compents) Verification:
+* NAND3_C (NAND3 made up of components) Verification:
 
 ![NAND3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand3_c.bmp "NAND3_3 Verification image")
 
@@ -185,7 +185,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![NAND5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_e.bmp "NAND5_E Verification image")
 
-* NAND5_C (NAND5 made up of compents) Verification:
+* NAND5_C (NAND5 made up of components) Verification:
 
 ![NAND5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_c.bmp "NAND5_C Verification image")
 
@@ -201,7 +201,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![XOR2_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor2_e.bmp "XOR2_E Verification image")
 
-* XOR2_C (XOR2_C made up of equations) Verification:
+* XOR2_C (XOR2_C made up of components) Verification:
 
 ![XOR2_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor2_c.bmp "XOR2_C Verification image")
 
@@ -211,7 +211,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![XOR3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor3_e.bmp "XOR3_E Verification image")
 
-* XOR3_C (XOR3 made up of compents) Verification:
+* XOR3_C (XOR3 made up of components) Verification:
 
 ![XOR3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor3_c.bmp "XOR3_3 Verification image")
 
@@ -225,7 +225,7 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ![XOR5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor5_e.bmp "XOR5_E Verification image")
 
-* XOR5_C (XOR5 made up of compents) Verification:
+* XOR5_C (XOR5 made up of components) Verification:
 
 ![XOR5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor5_c.bmp "XOR5_C Verification image")
 
