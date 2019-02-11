@@ -155,4 +155,38 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ### NAND Gates
 
+#### NAND2 (NAND with 2 inputs)
+
+* NAND2 (NAND2 made up of equations) Verification:
+
+![NAND2 Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand2.bmp "NAND2 Verification image")
+
+#### NAND3 (NAND with 3 inputs)
+
+* NAND3_E (NAND3 made up of equations) Verification:
+
+![NAND3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand3_e.bmp "NAND3_E Verification image")
+
+* NAND3_C (NAND3 made up of compents) Verification:
+
+![NAND3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand3_c.bmp "NAND3_3 Verification image")
+
+* NAND3_SC (NAND3 made up of self components) Verification:
+
+![NAND3_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand3_sc.bmp "NAND3_SC Verification image")
+
+#### NAND5 (NAND with 5 inputs)
+
+* NAND5_E (NAND5 made up of equations) Verification:
+
+![NAND5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_e.bmp "NAND5_E Verification image")
+
+* NAND5_C (NAND5 made up of compents) Verification:
+
+![NAND5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_c.bmp "NAND5_C Verification image")
+
+* NAND5_SC (NAND5 made up of self components) Verification:
+
+![NAND5_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_sc.bmp "NAND5_SC Verification image")
+
 ### XOR Gates
