@@ -1,6 +1,9 @@
 -- File: gates_3.vhd
 -- Includes: 3 Input Gates such as AND3 and OR3
 
+-- _________________________________________________________________
+-- AND Gates for 3 Inputs
+
 -- AND3, 3 input AND gate, Equation Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

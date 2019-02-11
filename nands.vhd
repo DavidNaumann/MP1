@@ -5,7 +5,7 @@
 -- NAND Gates for 2 Inputs
 
 
--- NAND2, 2 input NAND gate, Equation Creation
+-- NAND2_E, 2 input NAND gate, Equation Creation
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -20,7 +20,7 @@ begin
   o <= NOT (i1 AND i2);
 end NAND2_E_EQ;
 
--- NAND2, 2 input NAND gate, Component Creation
+-- NAND2_C, 2 input NAND gate, Component Creation
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -55,7 +55,7 @@ end NAND2_C_EQ;
 -- _________________________________________________________________
 -- NAND Gates for 3 Inputs
 
--- NAND2, 3 input NAND gate, Equation Creation
+-- NAND3, 3 input NAND gate, Equation Creation
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -103,7 +103,7 @@ begin
   O31: OR3_E port map(neg_i1, neg_i2, neg_i3, o);
 end NAND3_C_EQ;
 
--- NAND3, 3 input NAND gate, Self Component Creation
+-- NAND3_SC, 3 input NAND gate, Self Component Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

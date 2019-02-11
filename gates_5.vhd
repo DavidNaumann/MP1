@@ -1,6 +1,9 @@
 -- File: gates_5.vhd
 -- Includes: 5 Input Gates such as AND5 and OR5
 
+-- _________________________________________________________________
+-- AND Gates for 5 Inputs
+
 -- AND5_E, 5 input AND gate, Equation Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

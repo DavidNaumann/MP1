@@ -94,7 +94,7 @@ end XOR2_C_EQ;
 -- _________________________________________________________________
 -- XOR Gates for 3 Inputs
 
--- XOR3_C, 3 input XOR gate, Creation
+-- XOR3_E, 3 input XOR gate, Creation
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
