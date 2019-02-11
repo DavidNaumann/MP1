@@ -119,6 +119,40 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ### OR Gates
 
+#### OR2 (OR with 2 inputs)
+
+* OR2 (OR2 made up of equations) Verification:
+
+![OR2 Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or2.bmp "OR2 Verification image")
+
+#### OR3 (OR with 3 inputs)
+
+* OR3_E (OR3 made up of equations) Verification:
+
+![OR3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or3_e.bmp "OR3_E Verification image")
+
+* OR3_C (OR3 made up of compents) Verification:
+
+![OR3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or3_c.bmp "OR3_3 Verification image")
+
+* OR3_SC (OR3 made up of self components) Verification:
+
+![OR3_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or3_sc.bmp "OR3_SC Verification image")
+
+#### OR5 (OR with 5 inputs)
+
+* OR5_E (OR5 made up of equations) Verification:
+
+![OR5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or5_e.bmp "OR5_E Verification image")
+
+* OR5_C (OR5 made up of compents) Verification:
+
+![OR5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or5_c.bmp "OR5_C Verification image")
+
+* OR5_SC (OR5 made up of self components) Verification:
+
+![OR5_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/or5_sc.bmp "OR5_SC Verification image")
+
 ### NAND Gates
 
 ### XOR Gates
