@@ -83,9 +83,39 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 
 ### AND Gates
 
-AND2_E Verification:
+#### AND2 (AND with 2 inputs)
 
-![AND2_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp "AND2_E Verification image")
+* AND2 (AND2 made up of equations) Verification:
+
+![AND2 Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and2.bmp "AND2 Verification image")
+
+#### AND3 (AND with 3 inputs)
+
+* AND3_E (AND3 made up of equations) Verification:
+
+![AND3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_e.bmp "AND3_E Verification image")
+
+* AND3_C (AND3 made up of compents) Verification:
+
+![AND3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_c.bmp "AND2_3 Verification image")
+
+* AND3_SC (AND3 made up of self components) Verification:
+
+![AND3_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and3_sc.bmp "AND3_SC Verification image")
+
+#### AND5 (AND with 5 inputs)
+
+* AND5_E (AND5 made up of equations) Verification:
+
+![AND5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and5_e.bmp "AND5_E Verification image")
+
+* AND5_C (AND5 made up of compents) Verification:
+
+![AND5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and5_c.bmp "AND5_C Verification image")
+
+* AND5_SC (AND5 made up of self components) Verification:
+
+![AND5_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/and5_sc.bmp "AND5_SC Verification image")
 
 ### OR Gates
 
