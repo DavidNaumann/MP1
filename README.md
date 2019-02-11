@@ -194,3 +194,41 @@ AND5_EQ is the architecture of AND5 and TB_AND5 is the testbench entity of AND5
 ![NAND5_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/nand5_sc.bmp "NAND5_SC Verification image")
 
 ### XOR Gates
+
+#### XOR2 (XOR with 2 inputs)
+
+* XOR2_E (XOR2_E made up of equations) Verification:
+
+![XOR2_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor2_e.bmp "XOR2_E Verification image")
+
+* XOR2_C (XOR2_C made up of equations) Verification:
+
+![XOR2_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor2_c.bmp "XOR2_C Verification image")
+
+#### XOR3 (XOR with 3 inputs)
+
+* XOR3_E (XOR3 made up of equations) Verification:
+
+![XOR3_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor3_e.bmp "XOR3_E Verification image")
+
+* XOR3_C (XOR3 made up of compents) Verification:
+
+![XOR3_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor3_c.bmp "XOR3_3 Verification image")
+
+* XOR3_SC (XOR3 made up of self components) Verification:
+
+![XOR3_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor3_sc.bmp "XOR3_SC Verification image")
+
+#### XOR5 (XOR with 5 inputs)
+
+* XOR5_E (XOR5 made up of equations) Verification:
+
+![XOR5_E Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor5_e.bmp "XOR5_E Verification image")
+
+* XOR5_C (XOR5 made up of compents) Verification:
+
+![XOR5_C Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor5_c.bmp "XOR5_C Verification image")
+
+* XOR5_SC (XOR5 made up of self components) Verification:
+
+![XOR5_SC Verification](https://github.com/DavidTheNewKid/MP1/blob/master/img/xor5_sc.bmp "XOR5_SC Verification image")
